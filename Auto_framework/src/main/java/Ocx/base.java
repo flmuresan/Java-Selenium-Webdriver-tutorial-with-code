@@ -18,20 +18,20 @@ public class base {
 		
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
-		if(browserName=="chrome")
+		if(browserName.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver", "G:\\Florin Work\\Eclipse\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
-		else if(browserName=="firefox")
+		else if(browserName.equals("firefox"))
 		{
 			//execute in firefox driver 
 		}
-		else if(browserName=="edge")
+		else if(browserName.equals("edge"))
 		{
 			//execute in Edge browser 
 		}
-		else if(browserName=="IE")
+		else if(browserName.equals("IE11"))
 		{
 			//execute in IE11 browser 
 		}
