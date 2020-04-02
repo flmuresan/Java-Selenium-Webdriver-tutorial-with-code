@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7695" started-at="2020-04-02T15:00:51 EEST" finished-at="2020-04-02T15:00:58 EEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7695" started-at="2020-04-02T15:00:51 EEST" finished-at="2020-04-02T15:00:58 EEST">
+      <class name="Ocx.HomePage">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Ocx.HomePage@5a8e6209]" name="basePageNavigation" duration-ms="7643" started-at="2020-04-02T15:00:51 EEST" finished-at="2020-04-02T15:00:58 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Ocx.HomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
