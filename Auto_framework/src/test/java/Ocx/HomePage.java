@@ -10,7 +10,7 @@ public class HomePage extends base {
 	public void basePageNavigation() throws IOException
 	{
 		driver=initializeDriver(); 
-		driver.get("https://google.com");
+		driver.get("https://hotnews.com");
 	}
 	
 
